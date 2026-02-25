@@ -1,0 +1,17 @@
+/* Design Tokens - Cinematic Robotics Theme */
+:root {
+    --primary: #ffffff;
+    --secondary: #a1a1aa;
+    --accent: #00e5ff;
+    /* Cyber Blue */
+    --highlight: #ff6d00;
+    /* Mars Amber */
+    --bg-dark: #000000;
+    --bg-card: rgba(255, 255, 255, 0.02);
+    --text-main: #f4f4f5;
+    --text-dim: #71717a;
+    --font-header: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --shadow: 0 4px 50px rgba(0, 0, 0, 0.9);
+    --border: 1px solid rgba(255, 255, 255, 0.05);
+}

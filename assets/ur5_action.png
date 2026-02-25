@@ -1,0 +1,370 @@
+<!DOCTYPE html><!-- Last Published: Sun Feb 08 2026 04:16:22 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="foxglove.dev" data-wf-page="66cccbabee6f8e318213267b" data-wf-site="66a36245725199d12625c1d5" lang="en"><head><meta charset="utf-8"/><title>Not Found</title><meta content="Not Found" property="og:title"/><meta content="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/680083f842ec07b1b8191030_website-thumbnail.webp" property="og:image"/><meta content="Not Found" property="twitter:title"/><meta content="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/680083f842ec07b1b8191030_website-thumbnail.webp" property="twitter:image"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/css/foxglove-staging.shared.974f671d1.min.css" rel="stylesheet" type="text/css" integrity="sha384-l09nHRAPEUxPinrDNJRNKu59gFgIdPdKnPbnxaNmsLD4g6aN3EfF8t5SF3zMmCC5" crossorigin="anonymous"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/680275317124b80f8763a506_Foxglove-32.ico" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/6802751f458a96b67e7f2b36_Foxglove.ico" rel="apple-touch-icon"/><link href="https://foxglove.dev/404" rel="canonical"/><!-- Redirect homepage to app if signed in -->
+<script>
+if (document.cookie.includes("fox.signedin") && window.location.pathname === "/") {
+  window.location.href = "https://app.foxglove.dev/";
+}
+</script>
+<!-- End redirect -->
+
+<!-- First Interaction -->
+<script>
+document.addEventListener("DOMContentLoaded",function(){function setupFirstUserInteractionEvent(){function onFirstUserInteraction(){var event=new Event("firstUserInteraction");document.dispatchEvent(event);window.removeEventListener("click",onFirstUserInteraction);window.removeEventListener("keydown",onFirstUserInteraction);window.removeEventListener("scroll",onFirstUserInteraction);window.removeEventListener("mousemove",onFirstUserInteraction)}
+window.addEventListener("click",onFirstUserInteraction,{once:!0});window.addEventListener("keydown",onFirstUserInteraction,{once:!0});window.addEventListener("scroll",onFirstUserInteraction,{once:!0});window.addEventListener("mousemove",onFirstUserInteraction,{once:!0,})}
+setupFirstUserInteractionEvent()})
+</script>
+<!-- END First Interaction -->
+
+<!-- Finsweet Cookie Consent -->
+<!-- <script async src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in"></script> -->
+
+<style>
+/** 
+Global CSS
+
+Before making any changes, unminify the part of the code you need to change on https://www.minifier.org/
+Then minify it back on https://www.minifier.org/
+*/
+/** Misc */
+.marquee__track{will-change: transform}.filter-radio.fs-cmsfilter_active .tab-link{border-color:var(--gray-100);color:var(--gray-100)}
+
+/** General */
+:root{--header-height:72px}@media screen and (max-width:991px){:root{--header-height:69px}}body{min-height:100vh;display:flex;flex-direction:column;align-items:stretch;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}footer{margin-top:auto}p b,p strong{font-weight:500}.svg-icon svg{display:block}[js-video-id],[id]{scroll-margin-top:calc(var(--header-height) + 80px)}
+
+/** Nav */
+.w-nav-overlay{overflow:visible;max-height:calc(100vh - var(--header-height))}@media screen and (max-width:991px){.nav-menu{padding-bottom:100px}}.nav-dropdown-link .svg-icon{color:var(--gray-60)}.nav-dropdown-link:hover .svg-icon{color:var(--purple-60)}.brand.w-nav-brand{padding-left:0}@media screen and (min-width:992px) and (max-width:1048px){.nav-menu-menu{grid-column-gap:12px}.nav-inner-right .btn{padding:10px 16px}}@media screen and (min-width:992px) and (max-width:1010px){.nav-vert-divider{display:none}.nav-inner .brand{width:128px}}.navbar{transform:translateY(0%);transition:transform 400ms}.navbar.hidden{transform:translateY(-100%)}.nav-menu_submenu{cursor:pointer}.nav-menu_submenu .icon{transition:color 400ms}@media screen and (min-width:992px){.nav-menu_submenu.expanded,.nav-menu_submenu.expanded .nav-menu-link,.nav-menu_submenu.expanded .nav-menu_submenu_toggle_btn{color:var(--gray-40)!important}}.nav-menu-link.has-children[href='#']{pointer-events:none}.nav-menu_submenu .nav-menu_submenu_menu{pointer-events:none;transition:opacity 400ms,transform 400ms;transform:translateY(110%)}.nav-menu_submenu.expanded .nav-menu_submenu_menu{opacity:1;transform:translateY(100%);pointer-events:all}.nav-menu_submenu .nav-menu_submenu_toggle_btn{background:none;transition:transform 400ms;padding:.5rem;margin-left:-1rem}@media screen and (max-width:991px){.nav-menu{height:100%!important;max-height:unset}.nav-menu_submenu{display:block;text-align:left;pointer-events:all}.nav-menu_submenu .nav-menu-link{width:fit-content}.nav-menu_submenu .nav-menu_submenu_toggle_btn{margin-left:0}.nav-menu_submenu.expanded .nav-menu_submenu_menu,.nav-menu_submenu .nav-menu_submenu_menu{opacity:1;transition:height 400ms;transform:none;overflow:hidden;text-align:left;position:static}}
+/** Purple banner */
+@media screen and (min-width:992px){.purple-banner{position:relative;overflow:hidden}.purple-banner::before{content:'';position:absolute;top:10%;left:0;width:782px;height:782px;background:var(--purple-80);border-radius:50%;transform:translate(-50%,0%)}.purple-banner::after{content:'';position:absolute;right:0;top:50%;width:782px;height:782px;background:var(--purple-80);transform:translate(50%,-50%);border-radius:50%}.purple-banner>div{position:relative;z-index:1}}
+
+/** Hero video */
+video{width:100%;height:auto}.hero__video.w-embed{display:flex}.hero__video.w-embed video::-webkit-media-controls{display:none!important}
+
+/** Announcement */
+.announcement-wrap .w-dyn-empty{display:none}.announcement__rich-text p{margin-bottom:0}.announcement__rich-text a{color:inherit;text-decoration:underline}.announcement__rich-text a:hover{color:var(--purple-20)}.announcement__rich-text b{font-weight:500}
+
+/** Accordion */
+.announcement{will-change: height}.accordion__head__icon{transform:rotate(0deg)}.expanded .accordion__head__icon{transform:rotate(180deg)}.expanded .accordion__body{height:auto}
+
+/** Tooltip */
+.tippy-box{background-color:var(--gray-100);color:var(--white);text-align:center}
+  
+/** Marketing components */
+.hero__intro__text:empty, .section__text:empty, .hero__brow:empty {display: none}
+</style><script>
+
+addEventListener("DOMContentLoaded", function () {
+	Webflow.destroy();
+});
+</script>
+
+</head><body><div class="hidden-embeds"><div class="global-js w-embed w-script"><script>
+/** 
+Global JS
+
+Before making any changes, unminify the part of the code you need to change on https://www.minifier.org/
+Then minify it back on https://www.minifier.org/
+*/
+/* ===== EARLY CSS INJECTION (prevents CLS, adds fail-safe) ===== */(function(){try{var e=localStorage.getItem("ann_h"),t=":root{--ann-h:"+(e?e+"px":"0px")+";}.announcement-slot{height:var(--ann-h)}.announcement{visibility:hidden}",n=document.createElement("style");n.setAttribute("data-ann-style","1"),n.textContent=t,document.head.appendChild(n),window.__annFS=setTimeout(function(){if(!document.querySelector(".announcement")){document.documentElement.style.setProperty("--ann-h","0px");try{localStorage.setItem("ann_h","0")}catch(e){}}},1500)}catch(e){}})();
+/* ===== NAV MENU ===== */addEventListener("DOMContentLoaded",async function(e){setTimeout(function(){const t=document.querySelectorAll(".nav-menu_submenu");let n=!1;t.forEach(function(e){const t=e.querySelector(".nav-menu_submenu_menu"),o=t.querySelector(".nav-menu_submenu_menu_inner"),c=e.querySelector(".nav-menu_submenu_toggle");function r(t){requestAnimationFrame(function(){e.classList.contains("expanded")?(e.classList.remove("expanded"),t.style.height="0px"):(e.classList.add("expanded"),t.style.height=o.clientHeight+"px")})}c.addEventListener("mouseover",function(){n||requestAnimationFrame(function(){e.classList.add("expanded")})}),e.addEventListener("mouseleave",function(){n||requestAnimationFrame(function(){e.classList.remove("expanded")})}),c.addEventListener("mousedown",function(){r(t)})});function o(){requestAnimationFrame(function(){n=window.innerWidth<=991,t.forEach(function(e){const t=e.querySelector(".nav-menu_submenu_menu"),o=t.querySelector(".nav-menu_submenu_menu_inner");e.classList.remove("expanded"),n?t.style.height="0px":t.style.height=o.clientHeight+"px"})})}window.addEventListener("resize",o),o()},1e3)});
+/* ===== DISABLE BODY SCROLL WHEN MOBILE NAV OPEN ===== */document.addEventListener("DOMContentLoaded",function(){setTimeout(function(){const e=document.querySelector(".w-nav-overlay");if(e){const t=function(t){t.forEach(function(t){"attributes"===t.type&&"style"===t.attributeName&&("block"===e.style.display?document.body.style.overflow="hidden":document.body.style.overflow="")})},n=new MutationObserver(t);n.observe(e,{attributes:!0,attributeFilter:["style"]})}else console.error(".w-nav-overlay element not found")},1e3)});
+/* ===== MARQUEE ===== */addEventListener("DOMContentLoaded",function(){setTimeout(function(){function e(e){const t=e.querySelector(".marquee__track"),n=.2,o=t.innerHTML;requestAnimationFrame(function(){e.style.height=t.clientHeight+"px",e.style.position="relative",e.style.overflow="hidden",t.style.overflow="visible",t.style.position="absolute",t.style.top="0",t.style.left=0});let c=0;setInterval(function(){requestAnimationFrame(function(){t.style.left=`${-c}px`,c>t.clientWidth-document.body.clientWidth&&t.insertAdjacentHTML("beforeend",o),c+=n})},0)}document.querySelector(".marquee")&&document.querySelectorAll(".marquee").forEach(e)},2e3)});
+/* ===== ACCORDION ===== */addEventListener("DOMContentLoaded",function(){setTimeout(function(){function e(e){const t=e.querySelectorAll(".accordion__item");function n(){t.forEach(function(e){e.classList.remove("expanded");e.querySelector(".accordion__body").style.height="0px"})}t.forEach(function(e){const t=e.querySelector(".accordion__head"),o=e.querySelector(".accordion__body");o.style.overflow="hidden",o.style.height=e.classList.contains("expanded")?`${o.scrollHeight}px`:"0px",t.addEventListener("click",function(t){t.preventDefault();const c=!e.classList.contains("expanded");n(),c&&(e.classList.add("expanded"),o.style.height=`${o.scrollHeight}px`)})})}document.querySelectorAll(".accordion").forEach(e)},300)});
+/* ===== SHARE BUTTONS ===== */document.addEventListener("DOMContentLoaded",function(){setTimeout(function(){document.querySelectorAll(".share-twitter").forEach(function(e){e.addEventListener("click",t=>{const n=`https://twitter.com/intent/tweet?url=${window.location.href}`;console.log(n),e.setAttribute("href",n),e.setAttribute("target","_blank"),window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(document.title)+":%20 "+encodeURIComponent(document.URL),"","width=600,height=800")})}),document.querySelectorAll(".share-linkedin").forEach(function(e){e.addEventListener("click",t=>{const n=`https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}`;console.log(n),e.setAttribute("href",n),e.setAttribute("target","_blank"),window.open("http://www.linkedin.com/shareArticle?mini=true&url="+encodeURIComponent(document.URL)+"&title="+encodeURIComponent(document.title),"","width=600,height=800")})});document.querySelectorAll(".clipboard").forEach(function(e){tippy(e,{content:"Copy to clipboard",hideOnClick:!1}),e.onclick=function(t){e._tippy.setContent("Copied to clipboard!"),navigator.clipboard.writeText(window.location.href)},e.addEventListener("mouseleave",function(){e._tippy.setContent("Copy to clipboard"),e._tippy.hide()})})},500)});
+/* ===== ANNOUNCEMENT BAR (no delay, no slide, zero CLS + fail-safe) ===== */addEventListener("DOMContentLoaded",function(){var e=0;setTimeout(function(){function t(){document.documentElement.style.setProperty("--ann-h","0px");try{localStorage.setItem("ann_h","0")}catch(e){}}const n=document.querySelector(".announcement");if(!n)return t(),void 0;const o=n.getAttribute("id");if(!o)return t(),void 0;function c(){try{return JSON.parse(localStorage.getItem("announcements"))}catch(e){return console.warn("Failed to parse announcements storage"),null}}const r=c(),i=n.querySelector("a");let s=!1;if(i&&i.href)try{const e=new URL(i.href,window.location.origin),t=new URL(window.location.href);s=e.origin===t.origin&&e.pathname.replace(/\/$/,"")===t.pathname.replace(/\/$/,"")}catch(e){}let a=(!r||!r[o])&&!s;if(!a)return t(),void 0;window.__annFS&&clearTimeout(window.__annFS),n.parentElement.classList.contains("announcement-slot")||((d=document.createElement("div")).className="announcement-slot",n.parentNode.insertBefore(d,n),d.appendChild(n));var d;n.style.transition="none";const l=n.querySelector(".announcement__inner")||n,u=l.clientHeight||n.clientHeight||0;document.documentElement.style.setProperty("--ann-h",u+"px");try{localStorage.setItem("ann_h",String(u))}catch(e){}n.style.height="auto",n.style.visibility="visible";const m=n.querySelector(".announcement__close");if(!m)return;m.addEventListener("click",function(){n.style.display="none",t();const e=c()||{};e[o]=!0,localStorage.setItem("announcements",JSON.stringify(e))})},e)});
+/* ===== HEAD HEIGHT ===== */addEventListener("DOMContentLoaded",function(e){setTimeout(function(){const e=document.querySelector(".navbar");if(!e)return;requestAnimationFrame(function(){document.querySelector(":root").style.setProperty("--header-height",`${e.clientHeight}px`);const t=new ResizeObserver(function(e){for(const n of e)document.querySelector(":root").style.setProperty("--header-height",`${n.contentRect.height}px`)});t.observe(e)})},1e3)});
+/* ===== TOOLTIP (tippy.js) ===== */addEventListener("DOMContentLoaded",function(e){function t(){const e=document.createElement("link");e.setAttribute("rel","stylesheet"),e.setAttribute("href","https://unpkg.com/tippy.js@6/animations/scale.css"),document.head.append(e);const t=document.createElement("script");t.setAttribute("src","https://unpkg.com/@popperjs/core@2"),document.body.append(t);let n=!1;const o=setInterval(function(){if(window.Popper){n=!0;const e=document.createElement("script");e.setAttribute("src","https://unpkg.com/tippy.js@6"),document.body.append(e);let t=!1;const c=setInterval(function(){tippy&&window.Popper&&(t=!0,tippy("[data-tippy-content]",{interactive:!0}),clearInterval(c))},300);clearInterval(o)}},300)}setTimeout(function(){this.document.querySelector("[data-tippy-content")&&t()},1e3)});
+</script></div><div class="global-css w-embed"><style>
+.icon-cards-group__item > .color-gray-30 > a{
+	color: var(--purple-fg-40);
+}
+.stepper__content > .stepper__text > a{
+	color: var(--purple-fg-40);
+}
+</style></div></div><div data-animation="default" class="navbar w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" data-w-id="2f8be7b5-7a1f-b8f8-0e84-7ee60f0de505" role="banner" data-duration="400" data-doc-height="1"><div class="container is-nav w-container"><div class="hidden-script w-embed"><style>
+@media (max-width: 1178px) and (min-width: 992px) {
+  .nav-inner-right {
+    gap: 8px;
+  }
+
+  .btn.is--medium.is-nav {
+    padding-left: 0.675rem;
+    padding-right: 0.675rem;
+  }
+
+  .nav-menu-menu {
+    gap: 8px;
+  }
+
+  .nav-inner-left {
+    gap: 16px;
+  }
+  
+  .container.is-nav {
+  	padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 1018px) and (min-width: 992px) {
+  .brand {
+    width: 7rem
+  }
+  
+  .btn.is--medium.is-nav {
+    font-size: 0.875rem;
+  }
+}
+</style></div><div class="nav-inner"><div class="w-layout-vflex nav-inner-left"><a href="/" class="brand w-nav-brand"><img src="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/67fe86f1c9b0200992665883_Foxglove_Logo_Lockup_White.svg" loading="eager" width="137" height="30" alt="" class="site-logo"/><img src="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68028e1b7716b69d601b6e00_Foxglove_Logo_Lockup_Black.png" loading="eager" width="Auto" height="Auto" alt="" srcset="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68028e1b7716b69d601b6e00_Foxglove_Logo_Lockup_Black-p-500.png 500w, https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68028e1b7716b69d601b6e00_Foxglove_Logo_Lockup_Black-p-800.png 800w, https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68028e1b7716b69d601b6e00_Foxglove_Logo_Lockup_Black.png 1281w" sizes="(max-width: 767px) 98vw, (max-width: 991px) 728px, 940px" class="site-logo-black"/></a><nav role="navigation" class="nav-menu w-nav-menu"><div class="container is-menu"><div class="w-layout-vflex nav-menu-menu"><div class="nav-menu_submenu"><span class="nav-menu_submenu_toggle"><div class="nav-menu-link has-children">Product</div><button class="nav-menu_submenu_toggle_btn"><div class="icon white w-embed"><svg width="1em" height="1em" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5791 5.2501L0.829102 1.5001L1.3541 0.975098L4.5791 4.2001L7.8041 0.975098L8.3291 1.5001L4.5791 5.2501Z" fill="currentColor"/>
+</svg></div></button></span><div class="nav-menu_submenu_menu no-wrap"><div class="nav-menu_submenu_menu_inner"><a href="/product/visualization" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2283_37267)">
+<path d="M18.75 13.75H17.5V18.75H18.75V13.75Z" fill="currentColor"/>
+<path d="M16.25 11.25H15V18.75H16.25V11.25Z" fill="currentColor"/>
+<path d="M13.75 16.25H12.5V18.75H13.75V16.25Z" fill="currentColor"/>
+<path d="M5.625 10C4.75971 10 3.91385 10.2566 3.19438 10.7373C2.47492 11.2181 1.91416 11.9013 1.58303 12.7008C1.2519 13.5002 1.16526 14.3799 1.33407 15.2285C1.50288 16.0772 1.91956 16.8567 2.53141 17.4686C3.14326 18.0804 3.92281 18.4971 4.77148 18.6659C5.62015 18.8347 6.49982 18.7481 7.29924 18.417C8.09867 18.0858 8.78195 17.5251 9.26268 16.8056C9.74341 16.0862 10 15.2403 10 14.375C9.99871 13.2151 9.53736 12.103 8.71717 11.2828C7.89698 10.4626 6.78493 10.0013 5.625 10ZM8.68681 13.75H6.25V11.3132C6.84985 11.4368 7.40033 11.7335 7.8334 12.1666C8.26648 12.5997 8.56317 13.1502 8.68681 13.75ZM5.625 17.5C4.85062 17.4999 4.10384 17.2124 3.52943 16.693C2.95503 16.1737 2.5939 15.4596 2.51607 14.6891C2.43824 13.9186 2.64924 13.1467 3.10817 12.523C3.56711 11.8992 4.24128 11.4681 5 11.3132V13.75C5 14.0815 5.1317 14.3995 5.36612 14.6339C5.60054 14.8683 5.91848 15 6.25 15H8.68681C8.54188 15.7053 8.1582 16.3391 7.60047 16.7945C7.04273 17.2499 6.34504 17.499 5.625 17.5Z" fill="currentColor"/>
+<path d="M14.0845 7.5L16.5845 3.75H18.75V2.5H15.9155L13.4155 6.25H11.25V1.25H10V8.75C10 9.08152 10.1317 9.39946 10.3661 9.63388C10.6005 9.8683 10.9185 10 11.25 10H18.75V8.75H11.25V7.5H14.0845Z" fill="currentColor"/>
+<path d="M6.875 5C7.22018 5 7.5 4.72018 7.5 4.375C7.5 4.02982 7.22018 3.75 6.875 3.75C6.52982 3.75 6.25 4.02982 6.25 4.375C6.25 4.72018 6.52982 5 6.875 5Z" fill="currentColor"/>
+<path d="M5.625 7.5C5.97018 7.5 6.25 7.22018 6.25 6.875C6.25 6.52982 5.97018 6.25 5.625 6.25C5.27982 6.25 5 6.52982 5 6.875C5 7.22018 5.27982 7.5 5.625 7.5Z" fill="currentColor"/>
+<path d="M4.375 3.75C4.72018 3.75 5 3.47018 5 3.125C5 2.77982 4.72018 2.5 4.375 2.5C4.02982 2.5 3.75 2.77982 3.75 3.125C3.75 3.47018 4.02982 3.75 4.375 3.75Z" fill="currentColor"/>
+<path d="M3.125 6.25C3.47018 6.25 3.75 5.97018 3.75 5.625C3.75 5.27982 3.47018 5 3.125 5C2.77982 5 2.5 5.27982 2.5 5.625C2.5 5.97018 2.77982 6.25 3.125 6.25Z" fill="currentColor"/>
+<path d="M1.875 8.75C2.22018 8.75 2.5 8.47018 2.5 8.125C2.5 7.77982 2.22018 7.5 1.875 7.5C1.52982 7.5 1.25 7.77982 1.25 8.125C1.25 8.47018 1.52982 8.75 1.875 8.75Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2283_37267">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Visualization</div></a><a href="/product/data-management" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2283_37298)">
+<path d="M17.7796 10.066L14.375 8.36364V4.37501C14.375 4.25894 14.3427 4.14516 14.2817 4.04642C14.2207 3.94767 14.1334 3.86787 14.0296 3.81595L10.2796 1.94095C10.1928 1.89758 10.097 1.875 10 1.875C9.90296 1.875 9.80725 1.89758 9.72044 1.94095L5.97044 3.81595C5.86662 3.86787 5.77932 3.94767 5.71831 4.04642C5.6573 4.14516 5.62499 4.25894 5.625 4.37501V8.36364L2.22044 10.066C2.11662 10.1179 2.02932 10.1977 1.96831 10.2964C1.9073 10.3952 1.87499 10.5089 1.875 10.625V15C1.87499 15.1161 1.9073 15.2299 1.96831 15.3286C2.02932 15.4274 2.11662 15.5072 2.22044 15.5591L5.97044 17.4341C6.05725 17.4774 6.15296 17.5 6.25 17.5C6.34704 17.5 6.44275 17.4774 6.52956 17.4341L10 15.6989L13.4704 17.4341C13.5573 17.4774 13.653 17.5 13.75 17.5C13.847 17.5 13.9427 17.4774 14.0296 17.4341L17.7796 15.5591C17.8834 15.5072 17.9707 15.4274 18.0317 15.3286C18.0927 15.2299 18.125 15.1161 18.125 15V10.625C18.125 10.5089 18.0927 10.3952 18.0317 10.2964C17.9707 10.1977 17.8834 10.1179 17.7796 10.066ZM13.125 8.36364L10.625 9.61364V6.63639L13.125 5.38639V8.36364ZM10 3.19889L12.3523 4.37501L10 5.55114L7.64769 4.37501L10 3.19889ZM6.875 5.38639L9.375 6.63639V9.61364L6.875 8.36364V5.38639ZM5.625 15.8636L3.125 14.6136V11.6364L5.625 12.8864V15.8636ZM6.25 11.8011L3.89769 10.625L6.25 9.44889L8.60231 10.625L6.25 11.8011ZM6.875 12.8864L9.375 11.6364V14.6136L6.875 15.8636V12.8864ZM13.125 15.8636L10.625 14.6136V11.6364L13.125 12.8864V15.8636ZM13.75 11.8011L11.3977 10.625L13.75 9.44889L16.1023 10.625L13.75 11.8011ZM16.875 14.6136L14.375 15.8636V12.8864L16.875 11.6364V14.6136Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2283_37298">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Data Management</div></a><a href="/product/agent" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2283_37315)">
+<path d="M18.75 18.75H15V17.5H17.5V2.5H15V1.25H18.75V18.75Z" fill="currentColor"/>
+<path d="M15.5689 12.2437C15.4764 11.7968 15.2768 11.3791 14.9872 11.0263C14.6977 10.6736 14.3268 10.3965 13.9064 10.2187C13.5599 10.0743 13.1881 9.99999 12.8127 9.99999C12.4372 9.99999 12.0655 10.0743 11.7189 10.2187C11.5804 10.2817 11.4467 10.3548 11.3189 10.4375L9.56267 8.68124C9.93476 8.09233 10.0767 7.38691 9.96127 6.69992C9.84587 6.01294 9.48125 5.39261 8.93715 4.9576C8.39306 4.52259 7.70769 4.30344 7.01215 4.34207C6.31661 4.38069 5.65973 4.67439 5.16715 5.16696C4.67457 5.65954 4.38088 6.31643 4.34225 7.01197C4.30362 7.70751 4.52277 8.39288 4.95778 8.93697C5.39279 9.48106 6.01312 9.84568 6.7001 9.96109C7.38709 10.0765 8.09251 9.93458 8.68142 9.56249L10.4377 11.3187C10.0482 11.9309 9.91148 12.6703 10.0564 13.3812C10.1489 13.8281 10.3485 14.2459 10.6381 14.5986C10.9277 14.9514 11.2986 15.2285 11.7189 15.4062C12.0655 15.5506 12.4372 15.625 12.8127 15.625C13.1881 15.625 13.5599 15.5506 13.9064 15.4062C14.3268 15.2285 14.6977 14.9514 14.9872 14.5986C15.2768 14.2459 15.4764 13.8281 15.5689 13.3812C15.6439 13.0058 15.6439 12.6192 15.5689 12.2437ZM7.18767 8.74999C6.87864 8.74999 6.57655 8.65835 6.31959 8.48666C6.06264 8.31497 5.86237 8.07094 5.74411 7.78543C5.62585 7.49992 5.59491 7.18576 5.6552 6.88266C5.71549 6.57957 5.8643 6.30116 6.08282 6.08264C6.30134 5.86412 6.57975 5.7153 6.88284 5.65501C7.18594 5.59472 7.50011 5.62567 7.78562 5.74393C8.07113 5.86219 8.31516 6.06246 8.48685 6.31941C8.65854 6.57636 8.75017 6.87846 8.75017 7.18749C8.75017 7.60189 8.58555 7.99932 8.29253 8.29234C7.9995 8.58537 7.60207 8.74999 7.18767 8.74999Z" fill="currentColor"/>
+<path d="M5 18.75H1.25V1.25H5V2.5H2.5V17.5H5V18.75Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2283_37315">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Agent</div></a><a href="/product/mcap" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.823 5.96C19.1164 5.72 19.373 5.62333 19.593 5.67C19.813 5.71667 19.9297 5.92667 19.943 6.3C19.943 6.42 19.9164 6.54 19.863 6.66C19.8097 6.78 19.7497 6.88333 19.683 6.97C19.6164 7.05667 19.5164 7.15333 19.383 7.26C19.2497 7.36667 19.1464 7.44667 19.073 7.5C18.9997 7.55333 18.8864 7.63 18.733 7.73C18.5797 7.83 18.483 7.89333 18.443 7.92C18.0297 8.2 17.6297 8.5 17.243 8.82C16.723 9.23333 16.183 9.52 15.623 9.68C14.9697 9.86667 14.463 9.96667 14.103 9.98C13.7297 9.99333 13.2697 9.92 12.723 9.76C12.203 9.62667 11.7864 9.45 11.473 9.23C11.1597 9.01 10.9164 8.72667 10.743 8.38C10.5697 8.03333 10.4797 7.59667 10.473 7.07C10.4664 6.54333 10.5297 5.94667 10.663 5.28C10.783 4.6 10.983 3.78 11.263 2.82C11.343 2.58 11.3164 2.46 11.183 2.46C10.823 2.46 10.123 3.1 9.08305 4.38C8.04305 5.66 7.23638 6.86 6.66305 7.98C6.26305 8.75333 5.92971 9.22 5.66305 9.38C5.39638 9.54 5.09638 9.46 4.76305 9.14C4.48305 8.88667 4.34971 8.64333 4.36305 8.41C4.37638 8.17667 4.54971 7.68 4.88305 6.92C5.16305 6.36 5.30305 5.97333 5.30305 5.76C5.30305 5.57333 5.44305 5.18667 5.72305 4.6C5.90971 3.93333 5.96971 3.58 5.90305 3.54C5.75638 3.54 5.46638 3.77667 5.03305 4.25C4.59971 4.72333 4.14638 5.29 3.67305 5.95C3.19971 6.61 2.84305 7.16667 2.60305 7.62C2.22971 8.31333 1.88971 8.75333 1.58305 8.94C1.27638 9.12667 0.969714 9.08667 0.663047 8.82C0.369714 8.55333 0.25638 8.22333 0.323047 7.83C0.389714 7.43667 0.65638 6.79333 1.12305 5.9C1.25638 5.62 1.38638 5.21 1.51305 4.67C1.63971 4.13 1.76305 3.74667 1.88305 3.52C2.32305 2.57333 2.80305 1.9 3.32305 1.5C3.44305 1.40667 3.56971 1.32333 3.70305 1.25C3.83638 1.17667 3.97305 1.13 4.11305 1.11C4.25305 1.09 4.34638 1.13333 4.39305 1.24C4.43971 1.34667 4.43638 1.52667 4.38305 1.78C4.26305 2.19333 4.30971 2.38 4.52305 2.34C4.68305 2.32667 4.86971 2.14667 5.08305 1.8C5.38971 1.33333 5.74971 0.953333 6.16305 0.659999C6.32305 0.553333 6.45638 0.473333 6.56305 0.42C6.69638 0.366666 6.78305 0.333333 6.82305 0.32C6.88971 0.28 6.98305 0.266666 7.10305 0.28C7.22305 0.293333 7.30971 0.306666 7.36305 0.32C7.41638 0.32 7.52305 0.346666 7.68305 0.4C7.85638 0.453333 7.98971 0.486666 8.08305 0.5C8.45638 0.58 8.64305 0.686666 8.64305 0.82C8.66971 0.846667 8.68971 1.04667 8.70305 1.42C8.72971 1.59333 8.76305 1.72 8.80305 1.8C8.84305 1.88 8.92305 1.91667 9.04305 1.91C9.16305 1.90333 9.30971 1.85667 9.48305 1.77C9.65638 1.68333 9.91638 1.52667 10.263 1.3C11.063 0.793333 11.7497 0.5 12.323 0.42C12.7497 0.38 13.0164 0.39 13.123 0.45C13.2297 0.51 13.343 0.666666 13.463 0.92C13.623 1.33333 13.6564 1.86 13.563 2.5C13.4697 3.14 13.2964 3.74 13.043 4.3C12.7497 4.86 12.603 5.28667 12.603 5.58C12.603 5.82 12.5297 6.17333 12.383 6.64C12.2364 7.04 12.2597 7.41333 12.453 7.76C12.6464 8.10667 12.9497 8.32 13.363 8.4C13.603 8.44 13.9164 8.42 14.303 8.34C14.4097 8.31333 15.0564 8.04667 16.243 7.54C16.243 7.54 16.3664 7.46667 16.613 7.32C16.8597 7.17333 17.1264 7.01667 17.413 6.85C17.6997 6.68333 17.983 6.51333 18.263 6.34C18.543 6.16667 18.7297 6.04 18.823 5.96Z" fill="#697077"/>
+</svg></div><div>MCAP</div></a><a href="/product/integrations" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2283_37302)">
+<path d="M10.3101 11.3324L5.93506 8.83237C5.83906 8.77744 5.73206 8.75 5.625 8.75C5.51794 8.75 5.41094 8.77744 5.31494 8.83237L0.939938 11.3324C0.74525 11.4434 0.625 11.6507 0.625 11.875V16.875C0.625 17.0993 0.74525 17.3065 0.939938 17.4176L5.31494 19.9176C5.41094 19.9726 5.51806 20 5.625 20C5.73194 20 5.83906 19.9726 5.93506 19.9176L10.3101 17.4176C10.5047 17.3066 10.625 17.0993 10.625 16.875V11.875C10.625 11.6507 10.5047 11.4435 10.3101 11.3324ZM5.625 10.0949L8.74025 11.8749L5.625 13.655L2.50975 11.8749L5.625 10.0949ZM1.875 12.9519L5 14.7375V18.298L1.875 16.5124V12.9519ZM6.25 18.298V14.7375L9.375 12.9519V16.5124L6.25 18.298Z" fill="currentColor"/>
+<path d="M17.5001 11.875V15C17.5001 15.6891 16.9393 16.25 16.2501 16.25H14.2676L15.2588 15.2588L14.375 14.375L11.875 16.875L14.375 19.375L15.2588 18.4912L14.2676 17.5H16.2501C17.6286 17.5 18.7501 16.3785 18.7501 15V11.875H17.5001Z" fill="currentColor"/>
+<path d="M10.9399 9.38194L9.68994 8.66769C9.49525 8.55638 9.375 8.34931 9.375 8.125V6.875H10.625V7.76231L11.5601 8.29663L10.9399 9.38194Z" fill="currentColor"/>
+<path d="M15.9399 9.01094L15 9.54806V8.125H13.75V9.54806L12.8101 9.01094L12.1899 10.0964L14.0649 11.1676C14.1609 11.2226 14.2681 11.25 14.375 11.25C14.4819 11.25 14.5891 11.2226 14.6851 11.1676L16.5601 10.0964L15.9399 9.01094Z" fill="currentColor"/>
+<path d="M17.8101 9.38194L17.1899 8.29656L18.125 7.76225V6.87494H19.375V8.12494C19.375 8.34925 19.2548 8.55631 19.0601 8.66763L17.8101 9.38194Z" fill="currentColor"/>
+<path d="M15.9351 5.45351L15.3149 4.36801L14.375 4.90507L13.4351 4.36801L12.8149 5.45351L13.75 5.98757V6.87501H15V5.98757L15.9351 5.45351Z" fill="currentColor"/>
+<path d="M19.0601 2.58236L17.1851 1.51086L16.5649 2.59636L17.4903 3.12493L16.5649 3.65349L17.1851 4.73899L18.125 4.20186V5.62493H19.375V3.12493C19.375 2.90061 19.2548 2.69349 19.0601 2.58236Z" fill="currentColor"/>
+<path d="M15.3149 1.88194L14.375 1.34481L13.4351 1.88194L12.8149 0.796562L14.0649 0.0823125C14.1609 0.0274375 14.2679 0 14.375 0C14.4821 0 14.5891 0.0274375 14.6851 0.0823125L15.9351 0.796562L15.3149 1.88194Z" fill="currentColor"/>
+<path d="M12.1851 2.59643L11.5649 1.51093L9.68994 2.58243C9.49525 2.69349 9.375 2.90074 9.375 3.12505V5.62505H10.625V4.20199L11.5649 4.73911L12.1851 3.65361L11.2598 3.12505L12.1851 2.59643Z" fill="currentColor"/>
+<path d="M5.62506 0.625L4.74125 1.50881L5.73244 2.5H3.75C2.3715 2.5 1.25 3.6215 1.25 5V8.125H2.5V5C2.5 4.31094 3.06075 3.75 3.75 3.75H5.73244L4.74125 4.74119L5.62506 5.625L8.12506 3.125L5.62506 0.625Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2283_37302">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Integrations</div></a><a href="/product/extensibility" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2283_37321)">
+<path d="M16.25 13.75C15.8051 13.7523 15.3691 13.8747 14.9879 14.1042L12.6044 11.7206C12.9439 11.211 13.125 10.6123 13.125 10C13.125 9.38768 12.9439 8.78904 12.6044 8.27944L14.1963 6.6875C14.599 6.88152 15.0574 6.92672 15.4903 6.8151C15.9232 6.70348 16.3026 6.44225 16.5613 6.07768C16.82 5.71311 16.9413 5.26873 16.9038 4.82327C16.8662 4.37781 16.6722 3.96003 16.3561 3.64392C16.04 3.32782 15.6222 3.1338 15.1767 3.09624C14.7313 3.05868 14.2869 3.18 13.9223 3.43872C13.5578 3.69743 13.2965 4.07683 13.1849 4.50971C13.0733 4.94259 13.1185 5.40101 13.3125 5.80375L11.7206 7.39563C11.211 7.05614 10.6124 6.875 10.0001 6.875C9.38774 6.875 8.7891 7.05614 8.2795 7.39563L5.89575 5.01194C6.12523 4.63083 6.24762 4.19486 6.25 3.75C6.25 3.25555 6.10338 2.7722 5.82868 2.36108C5.55397 1.94995 5.16352 1.62952 4.70671 1.4403C4.24989 1.25108 3.74723 1.20157 3.26228 1.29804C2.77732 1.3945 2.33187 1.6326 1.98223 1.98223C1.6326 2.33187 1.3945 2.77732 1.29804 3.26228C1.20157 3.74723 1.25108 4.24989 1.4403 4.70671C1.62952 5.16352 1.94995 5.55397 2.36108 5.82868C2.7722 6.10338 3.25555 6.25 3.75 6.25C4.19486 6.24762 4.63083 6.12523 5.01194 5.89575L7.39563 8.27944C7.05614 8.78904 6.875 9.38768 6.875 10C6.875 10.6123 7.05614 11.211 7.39563 11.7206L5.012 14.1043C4.63087 13.8748 4.19488 13.7524 3.75 13.75C3.25555 13.75 2.7722 13.8966 2.36108 14.1713C1.94995 14.446 1.62952 14.8365 1.4403 15.2933C1.25108 15.7501 1.20157 16.2528 1.29804 16.7377C1.3945 17.2227 1.6326 17.6681 1.98223 18.0178C2.33187 18.3674 2.77732 18.6055 3.26228 18.702C3.74723 18.7984 4.24989 18.7489 4.70671 18.5597C5.16352 18.3705 5.55397 18.05 5.82868 17.6389C6.10338 17.2278 6.25 16.7445 6.25 16.25C6.24765 15.8051 6.12528 15.3691 5.89581 14.988L8.27944 12.6044C8.61181 12.8259 8.98379 12.9812 9.375 13.0618V15.1148C8.95799 15.2622 8.60653 15.5524 8.38273 15.9339C8.15893 16.3154 8.07721 16.7637 8.152 17.1996C8.2268 17.6356 8.4533 18.031 8.79146 18.3161C9.12963 18.6012 9.5577 18.7576 10 18.7576C10.4423 18.7576 10.8704 18.6012 11.2085 18.3161C11.5467 18.031 11.7732 17.6356 11.848 17.1996C11.9228 16.7637 11.8411 16.3154 11.6173 15.9339C11.3935 15.5524 11.042 15.2622 10.625 15.1148V13.0618C11.0162 12.9812 11.3882 12.8259 11.7206 12.6044L14.1042 14.9879C13.8747 15.3691 13.7523 15.8051 13.75 16.25C13.75 16.7445 13.8966 17.2278 14.1713 17.6389C14.446 18.05 14.8365 18.3705 15.2933 18.5597C15.7501 18.7489 16.2528 18.7984 16.7377 18.702C17.2227 18.6055 17.6681 18.3674 18.0178 18.0178C18.3674 17.6681 18.6055 17.2227 18.702 16.7377C18.7984 16.2528 18.7489 15.7501 18.5597 15.2933C18.3705 14.8365 18.05 14.446 17.6389 14.1713C17.2278 13.8966 16.7445 13.75 16.25 13.75ZM10 8.125C10.3708 8.125 10.7334 8.23497 11.0417 8.441C11.35 8.64702 11.5904 8.93986 11.7323 9.28247C11.8742 9.62508 11.9113 10.0021 11.839 10.3658C11.7666 10.7295 11.588 11.0636 11.3258 11.3258C11.0636 11.588 10.7295 11.7666 10.3658 11.839C10.0021 11.9113 9.62508 11.8742 9.28247 11.7323C8.93986 11.5904 8.64702 11.35 8.441 11.0417C8.23497 10.7334 8.125 10.3708 8.125 10C8.12555 9.50289 8.32327 9.02629 8.67478 8.67478C9.02629 8.32327 9.50289 8.12555 10 8.125ZM2.5 3.75C2.5 3.50277 2.57331 3.2611 2.71066 3.05554C2.84802 2.84998 3.04324 2.68976 3.27165 2.59515C3.50005 2.50054 3.75139 2.47579 3.99386 2.52402C4.23634 2.57225 4.45907 2.6913 4.63388 2.86612C4.8087 3.04093 4.92775 3.26366 4.97598 3.50614C5.02421 3.74861 4.99946 3.99995 4.90485 4.22836C4.81024 4.45676 4.65003 4.65199 4.44446 4.78934C4.2389 4.92669 3.99723 5 3.75 5C3.41858 4.99967 3.10083 4.86787 2.86648 4.63352C2.63213 4.39917 2.50033 4.08142 2.5 3.75ZM3.75 17.5C3.50277 17.5 3.2611 17.4267 3.05554 17.2893C2.84998 17.152 2.68976 16.9568 2.59515 16.7284C2.50054 16.4999 2.47579 16.2486 2.52402 16.0061C2.57225 15.7637 2.6913 15.5409 2.86612 15.3661C3.04093 15.1913 3.26366 15.0723 3.50614 15.024C3.74861 14.9758 3.99995 15.0005 4.22836 15.0952C4.45676 15.1898 4.65199 15.35 4.78934 15.5555C4.92669 15.7611 5 16.0028 5 16.25C4.99962 16.5814 4.8678 16.8991 4.63346 17.1335C4.39913 17.3678 4.0814 17.4996 3.75 17.5ZM16.25 17.5C16.0028 17.5 15.7611 17.4267 15.5555 17.2893C15.35 17.152 15.1898 16.9568 15.0952 16.7284C15.0005 16.4999 14.9758 16.2486 15.024 16.0061C15.0723 15.7637 15.1913 15.5409 15.3661 15.3661C15.5409 15.1913 15.7637 15.0723 16.0061 15.024C16.2486 14.9758 16.4999 15.0005 16.7284 15.0952C16.9568 15.1898 17.152 15.35 17.2893 15.5555C17.4267 15.7611 17.5 16.0028 17.5 16.25C17.4996 16.5814 17.3677 16.8991 17.1334 17.1334C16.8991 17.3677 16.5814 17.4996 16.25 17.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2283_37321">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Extensibility</div></a><a href="/security" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2283_37290)">
+<path d="M14.375 17.2436L12.7562 15.6249L11.875 16.5062L14.375 19.0062L19.375 14.0062L18.4937 13.125L14.375 17.2436Z" fill="currentColor"/>
+<path d="M10 14.375L8.66331 13.7421C7.57688 13.2281 6.875 12.1191 6.875 10.9174V6.875H13.125V10.9174C13.125 12.1192 12.4231 13.2282 11.3367 13.7421L10 14.375ZM8.125 8.125V10.9174C8.125 11.6382 8.54612 12.3035 9.198 12.6117L10 12.9913L10.802 12.6117C11.4539 12.3034 11.875 11.6382 11.875 10.9174V8.125H8.125Z" fill="currentColor"/>
+<path d="M2.5755 11.0351C2.90706 10.8105 3.125 10.4306 3.125 10C3.125 9.30969 2.56531 8.75 1.875 8.75C1.18469 8.75 0.625 9.30969 0.625 10C0.625 10.4929 0.912938 10.9153 1.3275 11.1188C1.752 14.4525 4.0445 17.2736 7.30788 18.3279L7.69206 17.1384C4.91987 16.243 2.96444 13.8595 2.5755 11.0351Z" fill="currentColor"/>
+<path d="M18.6727 8.88125C18.2482 5.5475 15.9557 2.72643 12.6923 1.67206L12.3081 2.86162C15.0803 3.757 17.0357 6.14043 17.4247 8.96481C17.0931 9.18943 16.8752 9.56937 16.8752 9.99993C16.8752 10.6902 17.4349 11.2499 18.1252 11.2499C18.8155 11.2499 19.3752 10.6902 19.3752 9.99993C19.3752 9.50706 19.0874 9.08475 18.6727 8.88125Z" fill="currentColor"/>
+<path d="M9.99981 0.625C9.50681 0.625 9.08456 0.91275 8.88119 1.3275C5.54744 1.752 2.72625 4.0445 1.67188 7.30775L2.86144 7.69225C3.757 4.92006 6.14025 2.96444 8.96463 2.57569C9.18938 2.90712 9.569 3.125 9.99975 3.125C10.6901 3.125 11.2498 2.56531 11.2498 1.875C11.2498 1.18469 10.6901 0.625 9.99981 0.625Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2283_37290">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Security</div></a><div class="nav-dropdown-divider"></div><a href="/download" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_249_4274)">
+<path d="M16.25 15V17.5H3.75V15H2.5V17.5C2.5 17.8315 2.6317 18.1495 2.86612 18.3839C3.10054 18.6183 3.41848 18.75 3.75 18.75H16.25C16.5815 18.75 16.8995 18.6183 17.1339 18.3839C17.3683 18.1495 17.5 17.8315 17.5 17.5V15H16.25Z" fill="#697077"/>
+<path d="M16.25 8.75L15.3687 7.86875L10.625 12.6062V1.25H9.375V12.6062L4.63125 7.86875L3.75 8.75L10 15L16.25 8.75Z" fill="#697077"/>
+</g>
+<defs>
+<clipPath id="clip0_249_4274">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Download</div></a></div></div></div><div class="nav-menu_submenu"><span class="nav-menu_submenu_toggle"><div class="nav-menu-link has-children">Solutions</div><button class="nav-menu_submenu_toggle_btn"><div class="icon white w-embed"><svg width="1em" height="1em" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5791 5.2501L0.829102 1.5001L1.3541 0.975098L4.5791 4.2001L7.8041 0.975098L8.3291 1.5001L4.5791 5.2501Z" fill="currentColor"/>
+</svg></div></button></span><div class="nav-menu_submenu_menu no-wrap"><div class="nav-menu_submenu_menu_inner is-grid"><div><div class="solutions-menu-text">Industry</div><a href="/solutions/automotive" class="nav-dropdown-link w-inline-block"><div>Automotive</div></a><a href="/solutions/defense-and-aerospace" class="nav-dropdown-link w-inline-block"><div>Defense &amp; Aerospace</div></a><a href="/solutions/logistics-and-supply-chain" class="nav-dropdown-link w-inline-block"><div>Logistics &amp; Supply Chain</div></a><a href="/solutions/manufacturing" class="nav-dropdown-link w-inline-block"><div>Manufacturing</div></a><a href="/solutions/agriculture-and-forestry" class="nav-dropdown-link w-inline-block"><div>Agriculture &amp; Forestry</div></a><a href="/solutions/marine" class="nav-dropdown-link w-inline-block"><div>Marine</div></a><a href="/solutions/construction-and-mining" class="nav-dropdown-link w-inline-block"><div>Construction &amp; Mining</div></a><a href="/solutions/health-and-wellbeing" class="nav-dropdown-link w-inline-block"><div>Health &amp; Wellbeing</div></a></div></div></div></div><a href="/product" class="nav-menu-link hidden w-nav-link">Product</a><div class="nav-menu_submenu"><span class="nav-menu_submenu_toggle"><div class="nav-menu-link has-children">Resources</div><button class="nav-menu_submenu_toggle_btn"><div class="icon white w-embed"><svg width="1em" height="1em" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5791 5.2501L0.829102 1.5001L1.3541 0.975098L4.5791 4.2001L7.8041 0.975098L8.3291 1.5001L4.5791 5.2501Z" fill="currentColor"/>
+</svg></div></button></span><div class="nav-menu_submenu_menu no-wrap"><div class="nav-menu_submenu_menu_inner"><a href="/why-foxglove" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_7045)">
+<path d="M10 1.25C8.26942 1.25 6.57769 1.76318 5.13876 2.72464C3.69983 3.6861 2.57832 5.05267 1.91606 6.65152C1.25379 8.25037 1.08051 10.0097 1.41813 11.707C1.75575 13.4044 2.58911 14.9635 3.81282 16.1872C5.03653 17.4109 6.59563 18.2442 8.29296 18.5819C9.9903 18.9195 11.7496 18.7462 13.3485 18.0839C14.9473 17.4217 16.3139 16.3002 17.2754 14.8612C18.2368 13.4223 18.75 11.7306 18.75 10C18.75 7.67936 17.8281 5.45376 16.1872 3.81282C14.5462 2.17187 12.3206 1.25 10 1.25ZM10 17.5C8.51664 17.5 7.0666 17.0601 5.83323 16.236C4.59986 15.4119 3.63856 14.2406 3.07091 12.8701C2.50325 11.4997 2.35473 9.99168 2.64411 8.53682C2.9335 7.08197 3.64781 5.74559 4.6967 4.6967C5.7456 3.64781 7.08197 2.9335 8.53683 2.64411C9.99168 2.35472 11.4997 2.50325 12.8701 3.0709C14.2406 3.63856 15.4119 4.59985 16.236 5.83322C17.0601 7.06659 17.5 8.51664 17.5 10C17.5 11.9891 16.7098 13.8968 15.3033 15.3033C13.8968 16.7098 11.9891 17.5 10 17.5Z" fill="currentColor"/>
+<path d="M10 15.625C10.5178 15.625 10.9375 15.2053 10.9375 14.6875C10.9375 14.1697 10.5178 13.75 10 13.75C9.48223 13.75 9.0625 14.1697 9.0625 14.6875C9.0625 15.2053 9.48223 15.625 10 15.625Z" fill="currentColor"/>
+<path d="M10.625 5.00001H9.68751C9.31793 4.99918 8.95184 5.07137 8.61024 5.21242C8.26864 5.35347 7.95826 5.5606 7.69693 5.82193C7.4356 6.08326 7.22847 6.39364 7.08742 6.73524C6.94637 7.07684 6.87418 7.44293 6.87501 7.81251V8.12501H8.12501V7.81251C8.12501 7.39811 8.28963 7.00068 8.58265 6.70765C8.87568 6.41463 9.27311 6.25001 9.68751 6.25001H10.625C11.0394 6.25001 11.4368 6.41463 11.7299 6.70765C12.0229 7.00068 12.1875 7.39811 12.1875 7.81251C12.1875 8.22691 12.0229 8.62434 11.7299 8.91736C11.4368 9.21039 11.0394 9.37501 10.625 9.37501H9.37501V12.1875H10.625V10.625C11.3709 10.625 12.0863 10.3287 12.6137 9.80124C13.1412 9.2738 13.4375 8.55843 13.4375 7.81251C13.4375 7.06659 13.1412 6.35122 12.6137 5.82377C12.0863 5.29632 11.3709 5.00001 10.625 5.00001Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_7045">
+<rect width="20" height="20" />
+</clipPath>
+</defs>
+</svg></div><div>Why Foxglove</div></a><a href="https://docs.foxglove.dev/docs/introduction/" target="_blank" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_7054)">
+<path d="M16.0625 5.8125L11.6875 1.4375C11.5625 1.3125 11.4375 1.25 11.25 1.25H5C4.3125 1.25 3.75 1.8125 3.75 2.5V17.5C3.75 18.1875 4.3125 18.75 5 18.75H15C15.6875 18.75 16.25 18.1875 16.25 17.5V6.25C16.25 6.0625 16.1875 5.9375 16.0625 5.8125ZM11.25 2.75L14.75 6.25H11.25V2.75ZM15 17.5H5V2.5H10V6.25C10 6.9375 10.5625 7.5 11.25 7.5H15V17.5Z" fill="currentColor"/>
+<path d="M13.75 13.75H6.25V15H13.75V13.75Z" fill="currentColor"/>
+<path d="M13.75 10H6.25V11.25H13.75V10Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_7054">
+<rect width="20" height="20"/>
+</clipPath>
+</defs>
+</svg></div><div>Documentation</div></a><a href="https://docs.foxglove.dev/changelog/" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 15V16.25H16.537C16.1877 16.6441 15.7585 16.9594 15.278 17.1749C14.7975 17.3904 14.2766 17.5012 13.75 17.5C12.7558 17.4989 11.8026 17.1035 11.0996 16.4004C10.3965 15.6974 10.0011 14.7442 10 13.75H8.75001C8.74799 14.7667 9.05657 15.7597 9.63444 16.5962C10.2123 17.4327 11.0319 18.0727 11.9835 18.4306C12.9351 18.7885 13.9734 18.8471 14.9592 18.5987C15.9451 18.3504 16.8316 17.8067 17.5 17.0407V18.75H18.75V15H15Z" fill="#697077"/>
+<path d="M13.75 8.75C13.0396 8.75366 12.3381 8.9079 11.6917 9.20253C11.0453 9.49717 10.4687 9.92552 10 10.4593V8.75H8.75V12.5H12.5V11.25H10.963C11.3123 10.8559 11.7415 10.5406 12.222 10.3251C12.7025 10.1096 13.2234 9.99876 13.75 10C14.7442 10.0011 15.6974 10.3965 16.4004 11.0996C17.1035 11.8026 17.4989 12.7558 17.5 13.75H18.75C18.7485 12.4244 18.2212 11.1535 17.2839 10.2161C16.3465 9.27879 15.0756 8.75152 13.75 8.75Z" fill="#697077"/>
+<path d="M7.5 17.5H3.75V15H5V13.75H3.75V10.625H5V9.375H3.75V6.25H5V5H3.75V2.5H15V7.5H16.25V2.5C16.25 2.16848 16.1183 1.85054 15.8839 1.61612C15.6495 1.3817 15.3315 1.25 15 1.25H3.75C3.41848 1.25 3.10054 1.3817 2.86612 1.61612C2.6317 1.85054 2.5 2.16848 2.5 2.5V5H1.25V6.25H2.5V9.375H1.25V10.625H2.5V13.75H1.25V15H2.5V17.5C2.5 17.8315 2.6317 18.1495 2.86612 18.3839C3.10054 18.6183 3.41848 18.75 3.75 18.75H7.5V17.5Z" fill="#697077"/>
+</svg></div><div>Changelog</div></a><a href="/blog" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_7035)">
+<path d="M8.75 15H2.5V16.25H8.75V15Z" fill="currentColor"/>
+<path d="M8.75 11.25H2.5V12.5H8.75V11.25Z" fill="currentColor"/>
+<path d="M16.25 8.75H3.75C3.41848 8.75 3.10054 8.6183 2.86612 8.38388C2.6317 8.14946 2.5 7.83152 2.5 7.5V3.75C2.5 3.41848 2.6317 3.10054 2.86612 2.86612C3.10054 2.6317 3.41848 2.5 3.75 2.5H16.25C16.5815 2.5 16.8995 2.6317 17.1339 2.86612C17.3683 3.10054 17.5 3.41848 17.5 3.75V7.5C17.5 7.83152 17.3683 8.14946 17.1339 8.38388C16.8995 8.6183 16.5815 8.75 16.25 8.75ZM3.75 3.75V7.5H16.25V3.75H3.75Z" fill="currentColor"/>
+<path d="M16.25 17.5H12.5C12.1685 17.5 11.8505 17.3683 11.6161 17.1339C11.3817 16.8995 11.25 16.5815 11.25 16.25V12.5C11.25 12.1685 11.3817 11.8505 11.6161 11.6161C11.8505 11.3817 12.1685 11.25 12.5 11.25H16.25C16.5815 11.25 16.8995 11.3817 17.1339 11.6161C17.3683 11.8505 17.5 12.1685 17.5 12.5V16.25C17.5 16.5815 17.3683 16.8995 17.1339 17.1339C16.8995 17.3683 16.5815 17.5 16.25 17.5ZM12.5 12.5V16.25H16.25V12.5H12.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_7035">
+<rect width="20" height="20" />
+</clipPath>
+</defs>
+</svg></div><div>Blog</div></a><div class="nav-dropdown-divider"></div><a href="https://docs.foxglove.dev/api" target="_blank" class="nav-dropdown-link w-inline-block"><div>API Reference</div></a><a href="https://foxglove.dev/blog?topic=tutorial" class="nav-dropdown-link w-inline-block"><div>Tutorials</div></a><a href="https://foxglovestatus.com/" target="_blank" class="nav-dropdown-link w-inline-block"><div>Status</div></a><a href="https://foxglove.dev/careers" target="_blank" class="nav-dropdown-link w-inline-block"><div>Careers</div></a><a href="/contact" class="nav-dropdown-link w-inline-block"><div>Contact Us</div></a><div class="nav-dropdown-divider"></div><a href="https://discord.com/invite/vUVAdFmMFM" target="_blank" class="nav-dropdown-link w-inline-block"><div class="svg-icon w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.25 18.75H15V15.625C14.9979 13.8999 13.6001 12.5021 11.875 12.5H8.125C6.39994 12.5021 5.00206 13.8999 5 15.625V18.75H3.75V15.625C3.75281 13.2099 5.70994 11.2528 8.125 11.25H11.875C14.2901 11.2528 16.2472 13.2099 16.25 15.625V18.75Z" fill="#697077"/>
+<path d="M13.75 3.75V6.25C13.75 6.93906 13.1893 7.5 12.5 7.5H11.875C11.5299 7.5 11.25 7.77987 11.25 8.125C11.25 8.47013 11.5299 8.75 11.875 8.75H12.5C13.8785 8.75 15 7.6285 15 6.25V3.75H13.75Z" fill="#697077"/>
+<path d="M10 10C7.58756 10 5.625 8.03744 5.625 5.625C5.625 3.21256 7.58756 1.25 10 1.25C11.2428 1.25 12.4313 1.78144 13.2608 2.70806L12.3294 3.54181C11.7368 2.87975 10.8878 2.5 10 2.5C8.27681 2.5 6.875 3.90188 6.875 5.625C6.875 7.34812 8.27681 8.75 10 8.75V10Z" fill="#697077"/>
+</svg></div><div>Help and Support</div></a></div></div></div><a href="/customers" class="nav-menu-link w-nav-link">Customers</a><a href="/pricing" class="nav-menu-link w-nav-link">Pricing</a></div><div class="nav-inner-right"><a href="/download" class="nav-menu-link is--download w-nav-link">Download</a><a href="/examples" class="nav-menu-link is--example w-nav-link">Examples</a><div class="nav-vert-divider"></div><a href="https://app.foxglove.dev/signin" target="_blank" class="nav-menu-link is--signin w-nav-link">Sign in</a><a href="https://app.foxglove.dev/signup" class="btn is--medium is-nav w-inline-block"><div>Get started for free</div></a></div></div></nav><a href="/demo" class="btn is--small mobile-only is-main-nav w-inline-block"><div>Get a demo</div></a><div class="menu-btn w-nav-button"><div class="svg-icon open-menu w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_3864)">
+<path d="M21 4.5H3V6H21V4.5Z" fill="currentColor"/>
+<path d="M21 18H3V19.5H21V18Z" fill="currentColor"/>
+<path d="M21 9H3V10.5H21V9Z" fill="currentColor"/>
+<path d="M21 13.5H3V15H21V13.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_3864">
+<rect width="24" height="24" />
+</clipPath>
+</defs>
+</svg></div><div class="svg-icon close-menu w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_6766)">
+<path d="M13.0606 12L18 7.06057L16.9394 6L12 10.9394L7.06072 6L6 7.06057L10.9394 12L6 16.9394L7.06072 18L12 13.0606L16.9394 18L18 16.9394L13.0606 12Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_6766">
+<rect width="24" height="24" />
+</clipPath>
+</defs>
+</svg></div></div></div></div></div></div><div class="w-layout-blockcontainer container bg-white-sm w-container"><div class="_404"><div class="card is-vertical no-hover"><div class="card__media is-vertical"><img src="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68027046458a96b67e7ac2d0_76c7337f2ff5270680543e4696e6f000_404-page.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 834.00390625px" srcset="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68027046458a96b67e7ac2d0_76c7337f2ff5270680543e4696e6f000_404-page-p-500.png 500w, https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68027046458a96b67e7ac2d0_76c7337f2ff5270680543e4696e6f000_404-page-p-800.png 800w, https://cdn.prod.website-files.com/66a36245725199d12625c1d5/68027046458a96b67e7ac2d0_76c7337f2ff5270680543e4696e6f000_404-page.png 1112w" alt="" class="card__image"/></div><div class="card-content is-vertical pt-1-5"><div class="card__brow mono-small mt-0-5">404 error</div><h2 class="card__title h5">Something went wrong...</h2><div class="card__text p-medium color-gray-70 mb-auto mt-0-5">We can’t find the page you are looking for. It might have moved, or the url you typed is incorrect.</div><a href="/" class="link-with-icon mt-0-5 w-inline-block"><div>Go to our homepage</div><div class="icon w-embed"><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_614_1557)">
+<path d="M10.125 4.13477L9.32062 4.91833L13.5844 9.19727H2.25V10.3223H13.5844L9.32062 14.5821L10.125 15.3848L15.75 9.75977L10.125 4.13477Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_614_1557">
+<rect width="18" height="18" fill="currentColor" transform="translate(0 0.759766)"/>
+</clipPath>
+</defs>
+</svg></div></a></div></div></div></div><footer class="section-footer"><div class="w-layout-blockcontainer container w-container"><div class="w-layout-vflex footer-grid"><div id="w-node-_7a1fc846-f7f0-5d50-fc0b-28ff234709f7-234709e8" class="w-layout-vflex footer-column-logo"><a href="/" class="w-inline-block"><img src="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/67fe86f1c9b0200992665883_Foxglove_Logo_Lockup_White.svg" loading="lazy" width="159" height="32" alt=""/></a></div><div class="w-layout-vflex footer-column"><div class="footer-column-title">Product</div><div class="w-layout-vflex footer-links"><a href="/product/visualization" class="footer-column-link">Visualization</a><a href="/product/data-management" class="footer-column-link">Data Management</a><a href="/product/agent" class="footer-column-link">Agent</a><a href="/product/mcap" class="footer-column-link">MCAP</a><a href="/product/integrations" class="footer-column-link">Integrations</a><a href="/product/extensibility" class="footer-column-link">Extensibility</a><a href="/pricing" class="footer-column-link">Pricing</a></div></div><div class="w-layout-vflex footer-column"><div class="footer-column-title">Company</div><div class="w-layout-vflex footer-links"><a href="/about" class="footer-column-link">About Us</a><a href="/customers" class="footer-column-link">Customers</a><a href="/careers" class="footer-column-link">Careers</a><a href="/media" class="footer-column-link">Media Kit</a><a href="https://foxglove.dev/community" target="_blank" class="footer-column-link">Community</a><a href="https://actuate.foxglove.dev" class="footer-column-link">Actuate</a><a href="/contact" class="footer-column-link">Contact Us</a></div></div><div class="w-layout-vflex footer-column"><div class="footer-column-title">Resources</div><div class="w-layout-vflex footer-links"><a href="https://docs.foxglove.dev/docs/introduction/" class="footer-column-link">Documentation</a><a href="https://docs.foxglove.dev/changelog/" class="footer-column-link">Changelog</a><a href="/blog" class="footer-column-link">Blog</a><a href="https://foxglovestatus.com/" class="footer-column-link">Status</a><a href="/security" class="footer-column-link">Security</a><a href="https://docs.foxglove.dev/api" class="footer-column-link">API Reference</a><a href="/why-foxglove" class="footer-column-link">Why Foxglove?</a></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><div>© <span id="copyright">2025</span> Foxglove Technologies, Inc.</div><a title="Go to Privacy Policy page" href="/legal/privacy" class="footer-bottom-link">Privacy Policy</a><a Title="Go to Terms of Service page" href="/legal/terms" class="footer-bottom-link">Terms of Service</a><a title="Go to DPA page" href="/legal/dpa" class="footer-bottom-link">Data Processing Addendum</a><a title="Go to Authorized Subprocessors page" href="/legal/subprocessors" class="footer-bottom-link">Authorized Subprocessors</a><a href="https://foxglove.dev/legal/privacy#our-use-of-cookies-and-tracking-technologies" fs-cc="open-preferences" class="footer-bottom-link">Cookie Settings</a><a href="#" class="footer-bottom-link is-hide">*Cookies Settings</a><a href="#" class="footer-bottom-link is-hide">*Subscription Terms</a><a href="#" class="footer-bottom-link is-hide">*Subscription Terms</a></div></div><div class="cookie-settings"><div class="cookie-modal_styles w-embed w-script"><style>
+
+.ck-preference__scroll-w::-webkit-scrollbar {
+	display: none;
+} .ck-preference__scroll-w {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+</style>
+
+<script>
+	document.querySelector('.cookie-settings').style.display = 'block'
+</script></div><div fs-cc-scroll="disable" fs-cc="preferences" class="cookie-preference_component"><div class="cookie-preference_wrapper"><div class="cookie-modal_component"><div class="cookie-modal_content-wrap"><div class="cookie-modal_head"><div class="cookie-modal_title">Cookie Settings</div><a fs-cc="close" href="#" class="cookie-modal_closebutton is-sticky w-inline-block"><div class="cookie-modal_closebutton_line is-left"></div><div class="cookie-modal_closebutton_line is-right"></div><div class="screenreader-only">Close Cookie Preference Manager</div></a></div><div class="cookie-modal_description">By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts. <a href="/legal/privacy#our-use-of-cookies-and-tracking-technologies" title="Our use of Cookies and tracking Technologies" class="cookie-modal_link">Read more about our use of cookies.</a></div><div class="cookie-modal_form-wrap w-form"><form id="ck-form" name="wf-form-ck-form" data-name="ck-form" method="get" class="cookie-modal_form" data-wf-page-id="66cccbabee6f8e318213267b" data-wf-element-id="b5aad6a3-60c7-89bf-6554-b0c94a329c7f"><div class="cookie-modal_radio is--not-allowed w-clearfix"><div class="cookie-modal_radio_button is-always-active"></div><div class="cookie-modal_radio_label is--not-allowed">Strictly Necessary (Always Active)</div><div class="cookie-modal_radio_description is--not-allowed">Cookies required to enable basic website functionality.</div></div><label class="w-checkbox cookie-modal_radio w-clearfix"><div class="w-checkbox-input w-checkbox-input--inputType-custom cookie-modal_radio_button"></div><input type="checkbox" name="Fs-Marketing" id="fs__marketing" data-name="Fs Marketing" fs-cc-checkbox="marketing" style="opacity:0;position:absolute;z-index:-1"/><span for="Fs-Marketing" class="cookie-modal_radio_label w-form-label">Marketing</span><div class="cookie-modal_radio_description">Cookies used to deliver advertising that is more relevant to you and your interests.</div></label><label class="w-checkbox cookie-modal_radio w-clearfix"><div class="w-checkbox-input w-checkbox-input--inputType-custom cookie-modal_radio_button"></div><input type="checkbox" name="Fs-Personalization" id="fs__personalization" data-name="Fs Personalization" fs-cc-checkbox="personalization" style="opacity:0;position:absolute;z-index:-1"/><span for="Fs-Personalization" class="cookie-modal_radio_label w-form-label">Personalization<br/></span><div class="cookie-modal_radio_description">Cookies allowing the website to remember choices you make (such as your user name, language, or the region you are in).</div></label><label class="w-checkbox cookie-modal_radio w-clearfix"><div class="w-checkbox-input w-checkbox-input--inputType-custom cookie-modal_radio_button"></div><input type="checkbox" name="Fs-Analytics" id="fs__analytics" data-name="Fs Analytics" fs-cc-checkbox="analytics" style="opacity:0;position:absolute;z-index:-1"/><span for="Fs-Analytics" class="cookie-modal_radio_label w-form-label">Analytics<br/></span><div class="cookie-modal_radio_description">Cookies helping understand how this website performs, how visitors interact with the site, and whether there may be technical issues.</div></label><div class="cookie-modal_button-wrap in-pref-manger"><a fs-cc="allow" href="#" class="btn w-inline-block"><div class="cookie-modal_button_text">Accept All Cookies</div></a><a fs-cc="submit" href="#" class="btn is--secondary is--gray w-inline-block"><div class="cookie-modal_button_text">Save Settings</div></a></div></form><div class="hide-all w-form-done"></div><div class="hide-all w-form-fail"></div></div></div></div></div></div><div fs-cc="banner" class="cookie-popup_component"><div class="cookie-modal_component"><div class="cookie-modal_content-wrap is-small"><div class="cookie-modal_head"><div class="cookie-modal_title is-small">Cookie Settings</div><a fs-cc="close" href="#" class="cookie-modal_closebutton w-inline-block"><div class="cookie-modal_closebutton_line is-left"></div><div class="cookie-modal_closebutton_line is-right"></div><div class="screenreader-only">Close Cookie Popup</div></a></div><div class="cookie-modal_description">By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts. <a href="/legal/privacy#our-use-of-cookies-and-tracking-technologies" title="Our use of Cookies and tracking Technologies" target="_blank" class="cookie-modal_link">Read more about our use of cookies.</a></div></div><div class="cookie-modal_button-wrap is-small"><a fs-cc="allow" href="#" class="btn is--small is-cookie-banner w-inline-block"><div class="cookie-modal_button_text">Accept All Cookies</div></a><a fs-cc="open-preferences" href="#" class="btn is--secondary is--small is-cookie-banner w-inline-block"><div class="cookie-modal_button_text">Cookie Settings</div></a></div></div></div></div><div flowappz-cookie-consent-container="true" class="flowappz-cookie-consent-hide-popup"><div flowappz-cookie-popup="true" class="flowappz-cookie-consent-popup-13 flowappz-hide-popup"><div class="flowappz-consent-popup-content--temp6"><div class="flowappz-cookie-popup-content-paragraph-33"><p class="paragraph-63"><strong class="bold-text">We use cookies</strong> to analyze our traffic and create a smooth user experience.</p></div><div class="flowappz-cookie-popup-btn-wrapper-12"><a flowappz-cookie-command="reject-all" href="#" class="flowappz-cookie-reject-button-27 w-button">Reject</a><a flowappz-cookie-command="accept-all" href="#" class="flowappz-cookie-accept-button-27 w-button">Allow All</a></div><div class="flowappz-cookie-consent-code w-embed"><style>
+
+/* This will hide elements with .your-body-class if .wf-doc is not on the <html> element */
+html:not(.wf-doc) .flowappz-hide-popup {
+    display: none;
+}
+.w--redirected-checked{
+	background-size:11px;
+}
+
+
+[custom-scrollbar="true"]::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+[custom-scrollbar="true"]::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+}
+
+[custom-scrollbar="true"]::-webkit-scrollbar-thumb {
+  background-color: #141414;
+  border-radius: 6px;
+  border: 2px solid #f0f0f0;
+}
+
+
+</style></div></div></div></div></footer><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66a36245725199d12625c1d5" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/js/foxglove-staging.schunk.36b8fb49256177c8.js" type="text/javascript" integrity="sha384-4abIlA5/v7XaW1HMXKBgnUuhnjBYJ/Z9C1OSg4OhmVw9O3QeHJ/qJqFBERCDPv7G" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/js/foxglove-staging.schunk.ca3373ec461c9836.js" type="text/javascript" integrity="sha384-qbu6GymWLnM/07W7Hyf5/b5gg1i8XXporDEBbh3eXlAx6nr9U0HvMsr7fjnI5cRj" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66a36245725199d12625c1d5/js/foxglove-staging.a038b774.1fefead0b284d4ff.js" type="text/javascript" integrity="sha384-iZEN0mma3os2m78s86BUccmJ0HADMiy75GA1A+TNcsKZwGThMZ2xGS3k+Okmhjk6" crossorigin="anonymous"></script><!-- Open external links in a new tab -->
+<!-- script>
+addEventListener("DOMContentLoaded",function(){const anchorElements=document.querySelectorAll("a");anchorElements.forEach(function(el){try{const href=el.getAttribute("href");if(href&&!["/","#"].includes(href[0])){const url=new URL(el.getAttribute("href"));if(url.host!==location.host){el.setAttribute("target","_blank")}}}catch(e){console.error('Failed to process anchor element: ', el)}})})
+</script
+-->
+<!-- End Open external links in a new tab -->
+
+<!-- Google Tag Manager -->
+<script>
+let gtmTimeout=0;const priorityDomains=["foxglove.dev"];if(!priorityDomains.includes(window.location.hostname)){gtmTimeout=0}
+setTimeout(()=>{(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!=="dataLayer"?"&l="+l:"";j.async=!0;j.src="https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f)})(window,document,"script","dataLayer","GTM-TQ5CS696")},gtmTimeout)
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Posthog -->
+<script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys getNextSurveyStep onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  
+const isProd = ['foxglove.dev'].includes(window.location.hostname)
+const postHogProdKey = 'phc_c8H8J4zZq2M4xrJ4IJW8K0jbhkodI39cCx2pP3ZAGi5';
+const postHogStgKey = 'phc_6Fu8esigyv6fs6CCClg24nWNnTr8vrKhE1LiY64o4I6';
+posthog.init(isProd ? postHogProdKey : postHogStgKey, {
+  api_host: "https://e.foxglove.dev",
+  ui_host: "https://us.posthog.com",
+  disable_session_recording: true,
+  debug: !isProd,
+  sanitize_properties: (properties) => {
+    return {
+      ...properties,
+      Platform: "Web",
+      Source: "Website",
+    };
+  },
+});
+</script>
+<!-- End Posthog -->
+
+<!-- CrispChat -->
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="c7f4211b-6d69-4481-b3d7-f55c5ce985d0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+</script>
+<!-- End CrispChat -->
+
+<!-- SVG Replacement -->
+<script>
+addEventListener("DOMContentLoaded",function(){document.querySelectorAll("[svg-content]").forEach(function(el){const svgContent=el.getAttribute("svg-content");el.innerHTML=svgContent||el.innerHTML})})
+</script><script src="https://cookie-consent-cdn-prod.pages.dev/cookie-consent/3.0.29/cookie-consent.js" type="text/javascript" integrity="sha384-+VRZFeKLspl7VTvwq0lZqdsK/EwqjWdAzfNzoO64HM6EqAIa5H4MxbxHdvMsVWMP" crossorigin="anonymous"></script></body></html>

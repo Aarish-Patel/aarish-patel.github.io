@@ -4,241 +4,460 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarish Patel | Embedded Systems & Robotics Engineer</title>
     <meta name="description"
-        content="Aarish Patel - Team Lead @ Mars Rover Manipal. Embedded Systems Engineer & Robotics Specialist.">
-    <title>Aarish Patel | Team Lead @ Mars Rover Manipal</title>
-    <link rel="stylesheet" href="style.css">
+        content="Aarish Patel - Embedded Systems and Robotics Engineer building autonomous systems from silicon to system-level architecture.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
+    <nav class="flex"
+        style="justify-content: space-between; padding: 2rem 5%; position: fixed; width: 100%; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px);">
+        <div class="logo" style="font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">AP.</div>
+        <div class="nav-links flex"
+            style="gap: 2rem; font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em;">
+            <a href="#systems">Systems</a>
+            <a href="#projects">Projects</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-    <header>
-        <div class="container">
-            <nav>
-                <a href="#" class="logo">Aarish Patel</a>
-                <ul class="nav-links">
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#experience">Achievements</a></li>
-                    <li><a href="#skills">Stack</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <header id="hero" class="flex"
+        style="min-height: 100vh; flex-direction: column; justify-content: center; align-items: flex-start; text-align: left;">
+        <div class="reveal">
+            <span
+                style="color: var(--accent-cyan); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 1rem; display: block;">[SYSTEM_INIT
+                // READY]</span>
+            <h1 class="hero-title">Aarish Patel</h1>
+            <p
+                style="font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 500; color: var(--text-primary); margin-bottom: 1.5rem; max-width: 800px; line-height: 1.2;">
+                Building autonomous systems from silicon to system-level architecture.
+            </p>
+            <p style="font-size: 1.125rem; color: var(--text-secondary); max-width: 600px; margin-bottom: 2.5rem;">
+                Embedded Systems Engineer specializing in real-time firmware, robotics control, and UAV autonomy.
+                Delivering field-tested aerospace and robotic solutions.
+            </p>
+            <div class="flex" style="gap: 1.5rem;">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="https://github.com/Aarish-Patel" target="_blank" class="btn btn-outline">GitHub <i
+                        data-lucide="github" style="width: 18px; margin-left: 8px;"></i></a>
+            </div>
         </div>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container hero-content">
-                <h1 class="reveal typewriter" id="hero-title" style="font-size: 10rem; letter-spacing: -6px;">AARISH
-                    PATEL.</h1>
-                <h2 class="reveal"
-                    style="font-size: 1.5rem; letter-spacing: 4px; color: var(--accent); margin-top: -1.5rem; margin-bottom: 2rem; font-weight: 600;">
-                    TEAM LEAD @ MARS ROVER MANIPAL</h2>
-                <p class="reveal"
-                    style="max-width: 600px; font-weight: 400; line-height: 1.6; color: var(--text-dim); text-transform: none; letter-spacing: 0;">
-                    Specializing in **Autonomous Control Systems** and **High-Reliability Embedded Hardware**.
-                    As the **Electronics & Control Engineer** for the Nakshatra Rover, I architected the systems that
-                    secured back-to-back global victories, now leading the team into its next chapter of planetary
-                    exploration.
+    <section id="systems">
+        <h2 class="section-title">Systems Overview</h2>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+            <div class="card">
+                <i data-lucide="cpu" style="color: var(--accent-cyan); margin-bottom: 1.5rem;"></i>
+                <h3>Embedded Systems</h3>
+                <p style="color: var(--text-secondary); margin-top: 1rem;">Real-time firmware development with ESP-IDF
+                    and FreeRTOS. Multi-MCU synchronization and low-latency communication protocols.</p>
+                <div
+                    style="margin-top: 1.5rem; font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">
+                    ESP32 / RTOS / SPI / I2C / UART</div>
+            </div>
+            <div class="card">
+                <i data-lucide="bot" style="color: var(--accent-cyan); margin-bottom: 1.5rem;"></i>
+                <h3>Robotics & Control</h3>
+                <p style="color: var(--text-secondary); margin-top: 1rem;">Complex kinematic control, PID tuning, and
+                    sensor fusion for mobile robots and manipulators.</p>
+                <div
+                    style="margin-top: 1.5rem; font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">
+                    ROS2 / MoveIt2 / PID / YOLOv8</div>
+            </div>
+            <div class="card">
+                <i data-lucide="plane" style="color: var(--accent-cyan); margin-bottom: 1.5rem;"></i>
+                <h3>Autonomous UAVs</h3>
+                <p style="color: var(--text-secondary); margin-top: 1rem;">End-to-end UAV stack integration including
+                    ArduPilot, Cube Orange, and RTK precision landing systems.</p>
+                <div
+                    style="margin-top: 1.5rem; font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">
+                    ArduPilot / MAVLink / RTK GPS</div>
+            </div>
+            <div class="card">
+                <i data-lucide="layers" style="color: var(--accent-cyan); margin-bottom: 1.5rem;"></i>
+                <h3>System Architecture</h3>
+                <p style="color: var(--text-secondary); margin-top: 1rem;">Hardware-software co-design, PCB stack
+                    planning, and fault-tolerant system design for mission-critical hardware.</p>
+                <div
+                    style="margin-top: 1.5rem; font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">
+                    EDA / Altium / KiCad / SolidWorks</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <!-- ERC 2025 Case Study -->
+        <div class="case-study reveal" style="margin-bottom: 15vw;">
+            <div style="display: flex; flex-direction: column; gap: 4rem;">
+                <div
+                    style="width: 100%; height: 600px; overflow: hidden; border-radius: 20px; border: 1px solid var(--border-color); position: relative;">
+                    <img src="assets/nakshatra_main.jpg" alt="European Rover Challenge Lander/Rover"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                    <div
+                        style="position: absolute; bottom: 20px; left: 20px; background: rgba(15, 23, 42, 0.8); padding: 10px 20px; border-radius: 8px; border: 1px solid var(--accent-cyan); backdrop-filter: blur(4px);">
+                        <span
+                            style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">[MISSION_UNIT
+                            // ERC_2025]</span>
+                    </div>
+                </div>
+                <div class="grid" style="grid-template-columns: 2fr 1fr; align-items: start;">
+                    <div>
+                        <h3 style="font-size: 2.5rem; margin-bottom: 1.5rem;">European Rover Challenge 2025</h3>
+                        <p style="font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                            Leading the development of a mission-critical Mars Rover system designed for semi-autonomous
+                            exploration and robotic manipulation.
+                        </p>
+
+                        <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 2rem;">
+                            <div class="tech-spec">
+                                <div class="flex" style="margin-bottom: 0.5rem; gap: 1rem;">
+                                    <img src="assets/img/Rover Control Arc ERC(1).png"
+                                        style="width: 48px; height: 48px; border-radius: 6px; object-fit: cover; border: 1px solid var(--border-color);">
+                                    <h4
+                                        style="color: var(--accent-cyan); font-size: 0.9rem; text-transform: uppercase;">
+                                        Navigation Stack</h4>
+                                </div>
+                                <p>Nav2 + RTAB-Map + Hybrid A* for obstacle avoidance and local path planning in
+                                    unstructured terrain.</p>
+                            </div>
+                            <div class="tech-spec">
+                                <div class="flex" style="margin-bottom: 0.5rem; gap: 1rem;">
+                                    <img src="assets/img/image2.png"
+                                        style="width: 48px; height: 48px; border-radius: 6px; object-fit: cover; border: 1px solid var(--border-color);">
+                                    <h4
+                                        style="color: var(--accent-cyan); font-size: 0.9rem; text-transform: uppercase;">
+                                        Robotic Manipulator</h4>
+                                </div>
+                                <p>6-DOF automation using MoveIt2 and custom ESP32-based joint control units.</p>
+                            </div>
+                            <div class="tech-spec">
+                                <div class="flex" style="margin-bottom: 0.5rem; gap: 1rem;">
+                                    <img src="assets/img/Comms.png"
+                                        style="width: 48px; height: 48px; border-radius: 6px; object-fit: cover; border: 1px solid var(--border-color);">
+                                    <h4
+                                        style="color: var(--accent-cyan); font-size: 0.9rem; text-transform: uppercase;">
+                                        Comm Redundancy</h4>
+                                </div>
+                                <p>Long-range RF handshake protocol with LoRa + WiFi fallbacks for continuous telemetry.
+                                </p>
+                            </div>
+                            <div class="tech-spec">
+                                <div class="flex" style="margin-bottom: 0.5rem; gap: 1rem;">
+                                    <img src="assets/img/image5.png"
+                                        style="width: 48px; height: 48px; border-radius: 6px; object-fit: cover; border: 1px solid var(--border-color);">
+                                    <h4
+                                        style="color: var(--accent-cyan); font-size: 0.9rem; text-transform: uppercase;">
+                                        Failsafe Logic</h4>
+                                </div>
+                                <p>Custom 400ms software watchdog with PWM hardware kill-switch for rover safety.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="position: sticky; top: 120px;">
+                        <h4 style="margin-bottom: 1rem;">System Architecture</h4>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.5rem;">
+                            <img src="assets/img/MotorDriver.png"
+                                style="width: 100%; border-radius: 4px; border: 1px solid var(--border-color);">
+                            <img src="assets/img/PDB.png"
+                                style="width: 100%; border-radius: 4px; border: 1px solid var(--border-color);">
+                            <img src="assets/img/FullStack.png"
+                                style="width: 100%; border-radius: 4px; border: 1px solid var(--border-color);">
+                            <img src="assets/img/MCU.png"
+                                style="width: 100%; border-radius: 4px; border: 1px solid var(--border-color);">
+                        </div>
+                        <ul style="list-style: none; color: var(--text-secondary); font-size: 0.95rem;">
+                            <li style="margin-bottom: 0.5rem;"><i data-lucide="check"
+                                    style="width: 14px; color: var(--accent-cyan); margin-right: 8px;"></i> 16 Dedicated
+                                Motor Drivers</li>
+                            <li style="margin-bottom: 0.5rem;"><i data-lucide="check"
+                                    style="width: 14px; color: var(--accent-cyan); margin-right: 8px;"></i> Triple ESP32
+                                Control Nodes</li>
+                            <li style="margin-bottom: 0.5rem;"><i data-lucide="check"
+                                    style="width: 14px; color: var(--accent-cyan); margin-right: 8px;"></i> 360&deg;
+                                LiDAR
+                                Mapping</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Drone Case Study -->
+        <div class="case-study reveal">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div
+                    style="border-radius: 20px; overflow: hidden; border: 1px solid var(--border-color); height: 500px;">
+                    <img src="assets/img/drone labelling.png" alt="Autonomous Drone Hardware"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                    <h3 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Autonomous UAV System</h3>
+                    <p style="font-size: 1.125rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                        High-precision autonomous flight platform specializing in computer vision-based landing and
+                        target tracking.
+                    </p>
+                    <div class="card" style="margin-bottom: 2rem; border-left: 4px solid var(--accent-orange);">
+                        <p style="font-weight: 600; font-family: var(--font-mono);">STAT // 10 CM PRECISION LANDING</p>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div class="flex" style="gap: 1.5rem; align-items: center;">
+                            <img src="assets/img/cams.png"
+                                style="width: 54px; height: 54px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border-color);">
+                            <p><strong>ArUco + YOLOv8 Integration:</strong> Real-time visual odometry for GPS-denied
+                                environments.</p>
+                        </div>
+                        <div class="flex" style="gap: 1.5rem; align-items: center;">
+                            <img src="assets/img/control_arch.png"
+                                style="width: 54px; height: 54px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border-color);">
+                            <p><strong>UAV Control Architecture:</strong> Comprehensive flight logic designed for
+                                deterministic behavior with redundant safety loops.</p>
+                        </div>
+                        <div class="flex" style="gap: 1.5rem; align-items: center;">
+                            <img src="assets/img/pdbdrone (1).png"
+                                style="width: 54px; height: 54px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border-color);">
+                            <p><strong>Cube Orange + Companion PC:</strong> Hybrid architecture for real-time control
+                                and high-level computation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Firmware Architecture Section -->
+    <section id="firmware"
+        style="background: rgba(30, 41, 59, 0.3); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <h2 class="section-title">Firmware Architecture</h2>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <div class="card">
+                <code
+                    style="color: var(--accent-cyan); display: block; margin-bottom: 1.5rem;">// Real-time Priority</code>
+                <h4>Queue-Based Design</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Asynchronous message
+                    passing between tasks for non-blocking control loops.</p>
+                <img src="assets/img/image8.png"
+                    style="width: 100%; margin-top: 1rem; border-radius: 4px; opacity: 0.8; border: 1px solid var(--border-color);">
+            </div>
+            <div class="card">
+                <code style="color: var(--accent-cyan); display: block; margin-bottom: 1.5rem;">// Safety Layer</code>
+                <h4>Watchdog Recovery</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Multi-stage watchdog
+                    system for graceful failure and autonomous recovery.</p>
+                <img src="assets/img/image11.png"
+                    style="width: 100%; margin-top: 1rem; border-radius: 4px; opacity: 0.8; border: 1px solid var(--border-color);">
+            </div>
+            <div class="card">
+                <code
+                    style="color: var(--accent-cyan); display: block; margin-bottom: 1.5rem;">// Protocol Integrity</code>
+                <h4>CRC-Based Telemetry</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Custom LoRa framing with
+                    CRC validation for mission data integrity.</p>
+                <img src="assets/img/MCU.png"
+                    style="width: 100%; margin-top: 1rem; border-radius: 4px; opacity: 0.8; border: 1px solid var(--border-color);">
+            </div>
+        </div>
+        <div style="margin-top: 4rem; text-align: center;">
+            <img src="assets/img/Rover Control Arc ERC(1).png" alt="Firmware Failsafe Timing Diagram"
+                style="max-width: 1000px; width: 100%; border-radius: 12px; opacity: 0.8; border: 1px solid var(--border-color);">
+        </div>
+    </section>
+
+    <section id="leadership">
+        <h2 class="section-title">Leadership & Systems Engineering</h2>
+        <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 2rem;">
+            <div class="card">
+                <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">50+ Engineers Managed</h3>
+                <p style="color: var(--text-secondary);">Direct oversight of multidisciplinary teams across 600+ tasks
+                    and 120+ project milestones.</p>
+            </div>
+            <div class="card">
+                <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">Validation & Testing</h3>
+                <p style="color: var(--text-secondary);">Managed 200+ verification tests and 40+ project risks,
+                    optimizing validation cycles by 20%.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards">
+        <h2 class="section-title">Awards & Certifications</h2>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <div class="card" style="border-top: 2px solid var(--accent-cyan);">
+                <div class="flex" style="justify-content: space-between; align-items: flex-start;">
+                    <span
+                        style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary);">2025</span>
+                    <i data-lucide="award" style="color: #fbbf24; width: 24px;"></i>
+                </div>
+                <h4 style="margin-top: 0.5rem; color: #fbbf24;">1st Place - International Rover Challenge (IRC)</h4>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Overall Winners at IRC 2025. Specifically secured 1st
+                    place in:
+                <ul style="margin-left: 1rem; margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.85rem;">
+                    <li>Reconnaissance and Delivery Mission</li>
+                    <li>Autonomous Expedition Task</li>
+                    <li>Instrument Deployment & Maintenance</li>
+                </ul>
                 </p>
             </div>
-        </section>
-
-        <!-- Featured Project: Mars Rover -->
-        <section id="work" class="feature-section">
-            <div class="container">
-                <div class="feature-grid">
-                    <div class="reveal">
-                        <img src="assets/nakshatra_main.jpg" alt="NAKSHATRA - Mars Rover" class="feature-img">
-                    </div>
-                    <div class="feature-content reveal">
-                        <h3 style="letter-spacing: 5px; color: var(--highlight);">GLOBAL CHAMPION</h3>
-                        <h2 style="font-size: 3.5rem; line-height: 1;">NAKSHATRA<br>MARS ROVER.</h2>
-                        <p style="margin-bottom: 2rem;">I served as the **Electronics & Control Systems Engineer** for
-                            Nakshatra, developing the autonomous navigation stacks and high-reliability hardware that
-                            secured **1st Place** at the International Rover Challenge 2024 & 2025. I am **currently the
-                            Team Lead**, directing a multidisciplinary team of 100+ to build Asia's premier rover
-                            platform.</p>
-                        <a href="https://github.com/Aarish-Patel/RoverCodes" target="_blank" class="cta-link">VIEW
-                            FIRMWARE →</a>
-                    </div>
+            <div class="card" style="border-top: 2px solid var(--accent-cyan);">
+                <div class="flex" style="justify-content: space-between; align-items: flex-start;">
+                    <span
+                        style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary);">2025</span>
+                    <img src="assets/erc_cert.png"
+                        style="width: 40px; border-radius: 2px; border: 1px solid var(--border-color);">
                 </div>
+                <h4 style="margin-top: 0.5rem;">10th Place - European Rover Challenge</h4>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Top 10 global finish in the prestigious European Rover
+                    Challenge (ERC) 2025.</p>
             </div>
-        </section>
-
-        <!-- Project Grid -->
-        <section class="container">
-            <div class="section-header reveal">
-                <h2>BEYOND THE ROVER</h2>
-                <p>Advanced Control & Hardware Research.</p>
+            <div class="card" style="border-top: 2px solid var(--accent-cyan);">
+                <span
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary);">2025</span>
+                <h4 style="margin-top: 0.5rem;">4th Place - International Rover Design Challenge</h4>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Recognized for elite mechanical and system
+                    architecture design among international competitors.</p>
             </div>
-
-            <div class="project-grid">
-                <!-- UR5 -->
-                <a href="https://github.com/Aarish-Patel/ur5-custom-ros2-simulation" target="_blank"
-                    class="project-card reveal">
-                    <div class="project-img-wrapper">
-                        <img src="assets/ur5_custom.jpg" alt="UR5 Manipulation">
-                    </div>
-                    <div class="project-info">
-                        <span class="project-meta">ROS 2 • Gazebo • ML</span>
-                        <h3>UR5 Simulation</h3>
-                        <p>Energy-efficient manipulation using Neural Networks and Fuzzy Logic benchmarking.</p>
-                    </div>
-                </a>
-
-                <!-- PCB -->
-                <a href="https://github.com/Aarish-Patel/Rover_PCBs" target="_blank" class="project-card reveal">
-                    <div class="project-img-wrapper">
-                        <img src="assets/pcb_stack.jpg" alt="Custom Electronics">
-                    </div>
-                    <div class="project-info">
-                        <span class="project-meta">Altium • Embedded C</span>
-                        <h3>Electronics Stack</h3>
-                        <p>Custom PCB architecture for high-reliability rover communication and motor control.</p>
-                    </div>
-                </a>
-
-                <!-- Analysis -->
-                <a href="https://github.com/Aarish-Patel/ur5-custom-ros2-simulation" target="_blank"
-                    class="project-card reveal">
-                    <div class="project-img-wrapper">
-                        <img src="assets/controller_comparison.png" alt="Control Analysis">
-                    </div>
-                    <div class="project-info">
-                        <span class="project-meta">Python • Control Theory</span>
-                        <h3>Neural Control</h3>
-                        <p>Comparative data analysis showing state-of-the-art energy gains over traditional PID.</p>
-                    </div>
-                </a>
+            <div class="card" style="border-top: 2px solid var(--accent-cyan);">
+                <span
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary);">2025</span>
+                <h4 style="margin-top: 0.5rem;">3rd Place - International Space Drone Challenge</h4>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Podium finish for autonomous UAV flight and
+                    mission-specific payload delivery algorithms.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- ERC Certification -->
-        <section class="container reveal">
-            <div class="section-header">
-                <h2>PROFESSIONAL CERTIFICATION</h2>
-                <p>European Space Foundation • ERC 2025</p>
+    <footer id="contact" style="padding: 100px 5%; border-top: 1px solid var(--border-color);">
+        <div class="flex" style="flex-direction: column; align-items: center; text-align: center; gap: 2rem;">
+            <h2 style="font-size: 2.5rem;">Building the future of autonomy.</h2>
+            <p style="color: var(--text-secondary); max-width: 500px;">Currently open to engineering roles at the
+                intersection of robotics, embedded systems, and autonomous flight.</p>
+            <div class="flex" style="gap: 2rem;">
+                <a href="mailto:aarishpatel.official@gmail.com" class="btn btn-primary">Get in Touch</a>
+                <a href="https://linkedin.com/in/aarish-patel-4843aa21a" target="_blank" class="flex"
+                    style="color: var(--text-secondary);"><i data-lucide="linkedin"></i> LinkedIn</a>
             </div>
-            <div class="feature-grid" style="align-items: flex-start;">
-                <div>
-                    <img src="assets/erc_cert.png" alt="ERC 2025 SpaceCert" class="feature-img"
-                        style="cursor: pointer; transition: transform 0.3s ease;">
-                </div>
-                <div class="feature-content" style="padding-top: 2rem;">
-                    <div class="skill-row" style="padding: 1.5rem 0; border-bottom: var(--border);">
-                        <h3 style="color: var(--highlight); margin-bottom: 0.5rem; font-size: 1.2rem;">Senior
-                            Electronics Engineer</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-dim);">Certified in designing custom PCBs for
-                            motor control and sensor signal conditioning. Expertise in high-reliability industrial/space
-                            environments.</p>
-                    </div>
-                    <div class="skill-row" style="padding: 1.5rem 0; border-bottom: var(--border);">
-                        <h3 style="color: var(--highlight); margin-bottom: 0.5rem; font-size: 1.2rem;">Head of Control
-                        </h3>
-                        <p style="font-size: 0.9rem; color: var(--text-dim);">Validated proficiency in tuning PID
-                            controllers and motion planners. Expert in integrating multi-modal sensor fusion (IMU, GPS,
-                            Encoders).</p>
-                    </div>
-                    <div class="skill-row" style="padding: 1.5rem 0;">
-                        <h3 style="color: var(--highlight); margin-bottom: 0.5rem; font-size: 1.2rem;">Leader of UAV
-                            System</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-dim);">Certified for overseeing aerial robotic
-                            platform AIT activities, ensuring mission readiness and flight stability.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Achievements Counter -->
-        <section id="experience" class="container">
-            <div class="section-header reveal">
-                <h2>PROVEN EXCELLENCE</h2>
-                <p>Leading the field in India and Abroad.</p>
-            </div>
-
-            <div class="achievement-row reveal">
-                <div class="stat-item">
-                    <h4>01</h4>
-                    <p>IRC 2025 WIN</p>
-                </div>
-                <div class="stat-item">
-                    <h4>01</h4>
-                    <p>IRC 2024 WIN</p>
-                </div>
-                <div class="stat-item">
-                    <h4>10</h4>
-                    <p>ERC TOP 10</p>
-                </div>
-                <div class="stat-item">
-                    <h4>03</h4>
-                    <p>URC SCIENCE MISSION</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Technical Stack -->
-        <section id="skills" class="container">
-            <div class="section-header reveal">
-                <h2>TECHNICAL STACK</h2>
-                <p>Tools For The Machines of Tomorrow.</p>
-            </div>
-
-            <div class="skills-grid reveal">
-                <div class="skill-col">
-                    <h3>Embedded</h3>
-                    <ul>
-                        <li>ESP-IDF & FreeRTOS</li>
-                        <li>STM32 / ESP32 / Arduino</li>
-                        <li>Custom PCB Design</li>
-                    </ul>
-                </div>
-                <div class="skill-col">
-                    <h3>Software</h3>
-                    <ul>
-                        <li>C, C++, Python</li>
-                        <li>ROS 2 / MoveIt 2</li>
-                        <li>Gazebo Simulation</li>
-                    </ul>
-                </div>
-                <div class="skill-col">
-                    <h3>Controls</h3>
-                    <ul>
-                        <li>PID & Kalman Filters</li>
-                        <li>Neural Network Control</li>
-                        <li>Sensor Fusion (IMU/GPS)</li>
-                    </ul>
-                </div>
-                <div class="skill-col">
-                    <h3>Protocols</h3>
-                    <ul>
-                        <li>CAN / UART / SPI / I2C</li>
-                        <li>LoRa Communication</li>
-                        <li>PWM / DShot</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="container reveal contact-section">
-            <h2 style="margin-bottom: 3rem;">HAVE A VISION?</h2>
-            <a href="mailto:aarishpatel.official@gmail.com" class="contact-email">SAY HELLO</a>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container footer-inner">
-            <div class="social-links">
-                <a href="https://github.com/Aarish-Patel" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/aarish-patel-4843aa21a" target="_blank">LinkedIn</a>
-            </div>
-            <p style="font-size: 0.7rem; letter-spacing: 1px; color: var(--text-dim);">&copy; 2026 AARISH PATEL</p>
+            <p
+                style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary); margin-top: 4rem;">
+                &copy; 2026 AARISH PATEL // SYSTEMS ENGINEER</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox-modal">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <img id="lightbox-img" src="" alt="Expanded View">
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Reveal on scroll
+        const observerOptions = {
+            threshold: 0.15,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Once visible, no need to observe anymore
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section, .case-study, .reveal, .card').forEach(el => {
+            // Set initial state
+            if (!el.classList.contains('reveal')) {
+                el.classList.add('reveal');
+            }
+            observer.observe(el);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    const navHeight = document.querySelector('nav').offsetHeight;
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navHeight;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.padding = '1rem 5%';
+                nav.style.borderBottom = '1px solid var(--border-color)';
+            } else {
+                nav.style.padding = '2rem 5%';
+                nav.style.borderBottom = 'none';
+            }
+        });
+
+        // Lightbox Logic
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.getElementById('lightbox-close');
+
+        document.querySelectorAll('img').forEach(img => {
+            // Don't make the lightbox image itself clickable to expand
+            if (img.id === 'lightbox-img') return;
+
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            });
+        });
+
+        const closeLightbox = () => {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = 'auto'; // Restore scrolling
+        };
+
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) closeLightbox();
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                closeLightbox();
+            }
+        });
+    </script>
 </body>
 
 </html>
